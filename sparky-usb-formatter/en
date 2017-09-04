@@ -1,0 +1,18 @@
+# English localization file for Sparky USB Formatter tool.
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
+# Under the GNU GPL v2
+# Last update 2016/02/05
+
+LOCAL1="USB Disk Formatter"
+LOCAL2="You must select a USB key to use. Click OK to return to main menu."
+LOCAL3="This will completely delete the contents of your USB drive. You will not be able to undo this operation once it starts.\n\nClick OK to continue."
+LOCAL4="Formatting the USB key now. \n\nPlease Wait..."
+LOCAL5="USB key formatting completed. \n\nClick OK to quit."
+LOCAL6="No USB keys found.\n\nPlease insert a USB key and try again."
+LOCAL7="Choose USB key"
+LOCAL8="Quit"
+LOCAL9="Format USB key"
+
+### .desktop file to be translated to
+# Name[en_US]=USB Formatter
+# Comment[en_US]=Format USB disk

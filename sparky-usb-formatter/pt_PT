@@ -1,0 +1,19 @@
+# Arquivo de localização para Portugues de Portugal do Sparky USB Formatter tool.
+# Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Saturday 23 January 23:25:44 WET 2016
+# Sob a Licença GNU GPL v2
+# Última atualização Saturday 23 January 23:25:44 WET 2016
+
+
+LOCAL1="Formatar disco USB"
+LOCAL2="Você deve selecionar uma chave USB para usar. Clique em OK para voltar ao menu principal."
+LOCAL3="Isto irá apagar completamente o conteúdo do seu drive USB. Você não será capaz de anular esta operação assim que iniciar..\n\nClique em OK para continuar."
+LOCAL4="Formatando a driver USB \n\nPor favor, espere..."
+LOCAL5="Formatação da driver USB concluída. \n\nClique em OK para sair."
+LOCAL6="Nenhuma driver USB encontrada.\n\nPor favor, insira uma driver USB e tente novamente."
+LOCAL7="Escolha driver USB"
+LOCAL8="Sair"
+LOCAL9="Formatar driver USB"
+
+### Arquivo a ser traduzido também .desktop
+# Name[pt_PT]=Formatter USB
+# Comment[pt_PT]=Formatar driver USB

@@ -1,0 +1,18 @@
+# File di localizzazione in Italiano per Sparky USB Formatter
+# Copyright 2015 Carlo Troiani <troianicarlo@gmail.com> 20/10/2015
+# Rilasciato sotto licenza GNU GPL v2
+# Ultimo aggiornamento 11/12/2015
+
+LOCAL1="Formattatore di drive USB"
+LOCAL2="Devi selezionare la Penna Usb da usare. Clicca su OK per tornare al menù principale."
+LOCAL3="Attenzione: proseguendo tutti i contenuti della tua penna USB andranno perduti. Non sarai in grado di annullare l'operazione una volta che sia iniziata.\n\nClicca su OK per continuare."
+LOCAL4="Sto formattando la penna USB adesso. \n\nPer favore attendi..."
+LOCAL5="Formattazione della penna USB completata. \n\nClicca su OK per uscire."
+LOCAL6="Nessun drive USB è stato rilevato.\n\nPrego, inserisci una penna USB e prova di nuovo."
+LOCAL7="Scegli un drive USB"
+LOCAL8="Esci"
+LOCAL9="Formatta la penna USB"
+
+### .desktop file to be translated too
+# Name[it_IT]=USB Formatter
+# Comment[it_IT]=Formatta penne USB
