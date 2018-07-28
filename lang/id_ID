@@ -1,0 +1,17 @@
+# Indonesian localization file for Sparky USB Formatter tool.
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
+# Under the GNU GPL v2
+# Last update 2018/07/28 by pavroo
+# Translated to Indonesian by les kompie
+LOCAL1="Pemformat USB FlashDisk"
+LOCAL2="Pilih USB flashdisk yang akan digunakan. Klik OK untuk kembali ke menu utama."
+LOCAL3="Ini akan menghapus seluruh isi USB flashdisk anda. Anda tidak akan bisa membatalkan operasi ini begitu dimulai.\n\nKlik OK untuk melanjutkan."
+LOCAL4="Memformat USB flashdisk sekarang. \n\nMohon tunggu..."
+LOCAL5="Pemformatan USB flashdisk selesai. \n\nKlik OK untuk keluar."
+LOCAL6="USB flashdisk tidak ditemukan.\n\nMasukkan USB flashdisk dan coba lagi."
+LOCAL7="Pilih USB flashdisk"
+LOCAL8="Keluar"
+LOCAL9="Format USB flashdisk"
+### .desktop file to be translated to
+# Name[id_ID]=Pemformat USB
+# Comment[id_ID]=Format USB flashdisk

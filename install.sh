@@ -31,5 +31,5 @@ else
 	if [ ! -d /usr/share/sparky/sparky-usb-formatter ]; then
 		mkdir -p /usr/share/sparky/sparky-usb-formatter
 	fi
-	cp sparky-usb-formatter/* /usr/share/sparky/sparky-usb-formatter
+	cp lang/* /usr/share/sparky/sparky-usb-formatter
 fi

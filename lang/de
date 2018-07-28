@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/25
 # Under the GNU GPL v2
 # Translated to German by Pete B. 2015/10/29
-
+# Last update 2018/07/28 by pavroo
 LOCAL1="USB Formatter Tool"
 LOCAL2="Es muss ein USB-Speicher ausgewählt werden. Klick auf OK um wieder ins Hauptmenü zu gelangen."
 LOCAL3="Diese Aktion wird alle in dem Speicher befindlichen Daten löschen!. Dieser Vorgang kann nicht rückgängig gemacht werden!.\n\nKlicke auf OK um fortzufahren"
@@ -12,7 +12,6 @@ LOCAL6="Es wurde kein USB-Speicher gefunden.\n\nBitte ein USB-Speicher anschlie�
 LOCAL7="Wähle ein USB-Speicher"
 LOCAL8="Beenden"
 LOCAL9="Formatiere USB-Speicher"
-
 ### .desktop file to be translated too
 # Name[de_DE]=USB Formatter Tool
 # Comment[de_DE]=Formatiert USB-Speicher
