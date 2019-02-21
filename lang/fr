@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky USB Formatter tool.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/05/12
 # Sous licence GNU GPL v2
-# Last update 2018/07/28 by pavroo
+# Last update 2019/02/21 by pavroo
 LOCAL1="formatage des disques USB"
 LOCAL2="Vous devez sélectionner une clé USB à utiliser. Cliquez sur OK pour revenir au menu principal."
 LOCAL3="Ceci va complètement effacer les données de votre disque USB. Une fois l'opération lancée, vous ne pourrez la défaire.\n\nCliquez sur OK pour continuer."
@@ -11,6 +11,8 @@ LOCAL6="Aucune clé USB trouvée.\n\nS'il vous plaît insérer une clé USB et r
 LOCAL7="choisissez la clé USB"
 LOCAL8="Quitter"
 LOCAL9="Formater la clé USB"
+LOCAL10="Étiquette du disque USB"
+LOCAL11="Veuillez patienter jusqu'à la fin..."
 ### .desktop file to be translated to
 # Name[fr_FR]=Formatage USB
 # Comment[fr_FR]=Formater un disque USB

@@ -2,7 +2,7 @@ Upstream Author(s):
     Paweł "pavroo" Pijanowski <pavroo@onet.eu> 
 
 Files: *
-    Copyright (C) 2015-2018 Paweł Pijanowski
+    Copyright (C) 2015-2019 Paweł Pijanowski
     License: GPL-2
 
     The 'sparky-usb-formatter' script is based on a part of the source code of the 'Copy to USB' tool

@@ -1,7 +1,7 @@
 # Archivo de localización en español para Sparky USB Formatter tool.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/23
 # Bajo la licencia GNU GPL v2
-# Last update 2018/07/28 by pavroo
+# Last update 2019/02/21 by pavroo
 LOCAL1="Formateador de discos USB"
 LOCAL2="Ud tiene que elegir la llave USB a usar. Hacer clic en OK para volver al menú principal."
 LOCAL3="Esto borrará por completo el contenido de su unidad USB. Una vez que esta operación haya comenzado, Ud no podrá deshacerla.\n\nHacer clic en OK para continuar."
@@ -11,6 +11,8 @@ LOCAL6="No se encontraron llaves USB.\n\nPor favor, inserte una llave USB e int�
 LOCAL7="Elegir una llave USB"
 LOCAL8="Salir"
 LOCAL9="Formatear llave USB"
+LOCAL10="Etiqueta de disco USB"
+LOCAL11="Por favor, espere hasta que termine..."
 ### .desktop file to be translated too
 # Name[es_AR]=Formateador USB
 # Comment[es_AR]=Formatea un disco USB

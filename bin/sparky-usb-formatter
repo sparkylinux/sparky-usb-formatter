@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Format USB Key Tool 
-# Copyright 2015-2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
+# Copyright 2015-2019 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
 # Under the GNU GPL v2
-# Last update 2018/07/28 by pavroo
+# Last update 2019/02/21 by Elton
 #
 # It is based on the Copy to USB Tool
 # Copyright 2009,2011 Tony Brijeski under the GPL V2
@@ -34,7 +34,7 @@ else
 . $DEFLOCDIR/en
 fi
 
-DIALOG="`which yad` --width 400"
+DIALOG="`which yad` --center --width 400"
 TITLE="--always-print-result --dialog-sep --window-icon=usb-creator --image=usb-creator --title="
 TITLETEXT="$LOCAL1"
 TEXT="--text="
@@ -64,7 +64,7 @@ umount `mount | grep $1 | awk '{print $1}'`
 # format now
 $DIALOG $TITLE"$TITLETEXT" $TEXT"$LOCAL4" --no-buttons --progress --pulsate --auto-close --auto-kill &
 
-mkfs.fat -F 32 -I -n USBDISK -v /dev/$1
+mkfs.vfat -F 32 -I -n $2 -v /dev/$1
 sleep 1
 killall -KILL yad
 
@@ -86,12 +86,18 @@ else
 	exit 0
 fi
 
-CHOICES=`$DIALOG $TITLE"$TITLETEXT" --form --field="$LOCAL7:CB" $USBDRIVES --button="$LOCAL8:2" --button="$LOCAL9:1"`
+CHOICES=`$DIALOG $TITLE"$TITLETEXT" --form --field="$LOCAL7:CB" --field="$LOCAL10" $USBDRIVES --button="$LOCAL8:2" --button="$LOCAL9:1"`
 ret="$?"
 
 if [ "$ret" = "1" ]; then
 	USBDRIVE=`echo $CHOICES | cut -d "|" -f 1 | cut -d "-" -f 1`
-	formatmenu $USBDRIVE
+	NAMEDISK=`echo $CHOICES | cut -d "|" -f 2 | cut -c1-11`
+	if [ "$NAMEDISK" = "" ]; then
+		NAMEDRIVE="USBDISK"
+	else
+		NAMEDRIVE="$NAMEDISK"
+	fi	
+	formatmenu $USBDRIVE $NAMEDRIVE
 else
 	exit 0
 fi

@@ -1,7 +1,7 @@
 # Polish localization file for Sparky USB Formatter tool.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
 # Under the GNU GPL v2
-# Last update 2018/07/28 by pavroo
+# Last update 2019/02/21 by pavroo
 LOCAL1="Formatowanie dysku USB"
 LOCAL2="Musisz wybrać dysk USB. Kliknij OK aby powrócić do głównego menu."
 LOCAL3="Ta operacja całkowicie usunie zawartość dysku USB. Nie będzie możliwości zatrzymania procesu formatowania, w chwili gdy się rozpocznie .\n\nKliknij OK aby kontynuować."
@@ -11,6 +11,8 @@ LOCAL6="Nie znaleziono dysku USB.\n\nPodłącz dysk USB i spróbuj ponownie."
 LOCAL7="Wybierz dysk USB"
 LOCAL8="Zakończ"
 LOCAL9="Formatuj dysk USB"
+LOCAL10="Etykieta Dysku USB"
+LOCAL11="Proszę czekać aż skończy..."
 ### .desktop file, również do przetłumaczenia
 # Name[pl_PL]=Formatowanie dysku USB
 # Comment[pl_PL]=Formatowanie dysku USB

@@ -1,7 +1,7 @@
 # Svensk språkfil för Sparky USB-formateringsverktyg.
 # Copyright 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com> 2015-10-22
 # Under GNU GPL v2
-# Last update 2018/07/28 by pavroo
+# Last update 2019/02/21 by pavroo
 LOCAL1="USB-diskformatering"
 LOCAL2="Du måste välja en USB-disk. Klicka OK för att återvända till huvudmenyn."
 LOCAL3="Detta kommer att radera allt innehåll på din USB-enhet. Du kommer inte att kunna ångra denna operation när den väl påbörjats.\n\nKlicka OK för att fortsätta."
@@ -11,6 +11,8 @@ LOCAL6="Inga USB-enheter hittades.\n\nVänligen anslut en USB-enhet och försök
 LOCAL7="Välj en USB-enhet"
 LOCAL8="Avsluta"
 LOCAL9="Formatera USB-enhet"
+LOCAL10="USB-disketikett"
+LOCAL11="Vänta tills du är klar..."
 ### .desktop file to be translated too
 # Name[sv_SE]=USB-formaterare
 # Comment[sv_SE]=Formaterar USB-enhet

@@ -18,16 +18,14 @@ if [ "$1" = "uninstall" ]; then
 	rm -f /usr/bin/sparky-usb-formatter
 	rm -f /usr/lib/sparkycenter/system/sparky-usb-formatter.desktop
    	rm -f /usr/share/applications/sparky-usb-formatter.desktop
-	rm -f /usr/share/menu/sparky-usb-formatter
 	rm -rf /usr/share/sparky/sparky-usb-formatter
 else
 	cp bin/sparky-usb-formatter /usr/bin/
 	if [ ! -d /usr/lib/sparkycenter/system ]; then
 		mkdir -p /usr/lib/sparkycenter/system
 	fi
-	cp lib/sparky-usb-formatter.desktop /usr/lib/sparkycenter/system/
+	cp share/sparky-usb-formatter.desktop /usr/lib/sparkycenter/system/
 	cp share/sparky-usb-formatter.desktop /usr/share/applications/
-	cp share/sparky-usb-formatter /usr/share/menu/
 	if [ ! -d /usr/share/sparky/sparky-usb-formatter ]; then
 		mkdir -p /usr/share/sparky/sparky-usb-formatter
 	fi

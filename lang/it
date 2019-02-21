@@ -2,7 +2,7 @@
 # Copyright 2015 Carlo Troiani <troianicarlo@gmail.com> 20/10/2015
 # Rilasciato sotto licenza GNU GPL v2
 # Ultimo aggiornamento 11/12/2015
-# Last update 2018/07/28 by pavroo
+# Last update 2019/02/21 by pavroo
 LOCAL1="Formattatore di drive USB"
 LOCAL2="Devi selezionare la Penna Usb da usare. Clicca su OK per tornare al menù principale."
 LOCAL3="Attenzione: proseguendo tutti i contenuti della tua penna USB andranno perduti. Non sarai in grado di annullare l'operazione una volta che sia iniziata.\n\nClicca su OK per continuare."
@@ -12,6 +12,8 @@ LOCAL6="Nessun drive USB è stato rilevato.\n\nPrego, inserisci una penna USB e 
 LOCAL7="Scegli un drive USB"
 LOCAL8="Esci"
 LOCAL9="Formatta la penna USB"
+LOCAL10="Etichetta disco USB"
+LOCAL11="Si prega di attendere fino al completamento..."
 ### .desktop file to be translated too
 # Name[it_IT]=USB Formatter
 # Comment[it_IT]=Formatta penne USB

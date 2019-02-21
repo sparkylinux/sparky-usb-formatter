@@ -1,7 +1,7 @@
 # Japanese localization file for Sparky USB Formatter tool.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
 # Under the GNU GPL v2
-# Last update 2018/07/28 by pavroo
+# Last update 2019/02/21 by pavroo
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
 LOCAL1="USB ディスクフォーマット"
 LOCAL2="使用する USB キーを選択する必要があります。OK のクリックでメインメニューへ戻ります。"
@@ -12,6 +12,8 @@ LOCAL6="USB キーが見つかりません。\n\nUSB キーを挿して再度行
 LOCAL7="USB キーを選択"
 LOCAL8="終了"
 LOCAL9="USB キーの初期化"
+LOCAL10="USBディスクラベル"
+LOCAL11="完了するまでお待ちください..."
 ### .desktop file to be translated too
 # Name[ja_JP]=USB フォーマット
 # Comment[ja_JP]=USB ディスクのフォーマット
