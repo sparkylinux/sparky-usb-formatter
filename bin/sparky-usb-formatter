@@ -3,7 +3,7 @@
 # Format USB Key Tool 
 # Copyright 2015-2019 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
 # Under the GNU GPL v2
-# Last update 2019/02/21 by Elton
+# Last update 2019/03/31 by pavroo
 #
 # It is based on the Copy to USB Tool
 # Copyright 2009,2011 Tony Brijeski under the GPL V2
@@ -28,6 +28,8 @@ elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
 . $DEFLOCDIR/pt_BR
 elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
 . $DEFLOCDIR/pt
+elif [ "`cat /etc/default/locale | grep ru`" != "" ]; then
+. $DEFLOCDIR/ru
 elif [ "`cat /etc/default/locale | grep sv_SE`" != "" ]; then
 . $DEFLOCDIR/se
 else
@@ -62,7 +64,7 @@ fi
 umount `mount | grep $1 | awk '{print $1}'`
 
 # format now
-$DIALOG $TITLE"$TITLETEXT" $TEXT"$LOCAL4" --no-buttons --progress --pulsate --auto-close --auto-kill &
+$DIALOG $TITLE"$TITLETEXT" $TEXT"$LOCAL4" --no-buttons --progress --pulsate --auto-close --auto-kill --progress-text="$LOCAL11" &
 
 mkfs.vfat -F 32 -I -n $2 -v /dev/$1
 sleep 1
