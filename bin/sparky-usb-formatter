@@ -3,7 +3,7 @@
 # Format USB Key Tool 
 # Copyright 2015-2019 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
 # Under the GNU GPL v2
-# Last update 2019/03/31 by pavroo
+# Last update 2019/10/17 by pavroo
 #
 # It is based on the Copy to USB Tool
 # Copyright 2009,2011 Tony Brijeski under the GPL V2
@@ -16,6 +16,8 @@ elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
 . $DEFLOCDIR/es
 elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+. $DEFLOCDIR/hu
 elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
 elif [ "`cat /etc/default/locale | grep it`" != "" ]; then

@@ -1,0 +1,18 @@
+# Hungarian localization file for Sparky USB Formatter tool. (Translated by Nemomen)
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
+# Under the GNU GPL v2
+# Last update 2019/02/21 by pavroo
+LOCAL1="USB Meghajtó Formázó"
+LOCAL2="Ki kell választania a használandó USB meghajtót! Kattintson OK-t a főmenübe visszatéréshez!"
+LOCAL3="Ez teljesen le fogja törölni az Ön USB meghajtója tartalmát. Nem tudja leállítani ha már a művelet elindult. \n\nKattintson OK-t a folytatáshoz!"
+LOCAL4="USB meghajtó formázása most. \n\nKérjük, várjon..."
+LOCAL5="USB meghajtó formázása befejeződött. \n\nKattintson OK-t a kilépéshez!"
+LOCAL6="Nem található USB meghajtó.\n\nKérjük, helyezzen be egy USB meghajtót és próbálja újra!"
+LOCAL7="Válasszon USB meghajtót!"
+LOCAL8="Kilépés"
+LOCAL9="Formázza meg az USB meghajtót!"
+LOCAL10="USB Meghajtó Címke/Címkéje"
+LOCAL11="Kérjük, várjon amíg befejeződik..."
+### .desktop file to be translated to
+# Name[en_US]=USB Formatter
+# Comment[en_US]=Format USB disk
