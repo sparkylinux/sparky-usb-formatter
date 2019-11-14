@@ -3,17 +3,18 @@
 # Under the GNU GPL v2
 # Last update 2019/02/21 by pavroo
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-LOCAL1="USB ディスクフォーマット"
-LOCAL2="使用する USB キーを選択する必要があります。OK のクリックでメインメニューへ戻ります。"
-LOCAL3="これは完全に USB ドライブの内容を削除します。動作したら、この操作を元に戻すことはできません。\n\nOK のクリックで続けます。"
-LOCAL4="USB キーをフォーマットしています。\n\nお待ち下さい..."
-LOCAL5="USB キーのフォーマットが完了しました。\n\nOK のクリックので終了します。"
-LOCAL6="USB キーが見つかりません。\n\nUSB キーを挿して再度行って下さい。"
-LOCAL7="USB キーを選択"
+# Translated to Japanese by FuRuYa7.
+LOCAL1="USB フォーマットツール"
+LOCAL2="使用する USB メモリスティックを選択する必要があります。OK のクリックでメインメニューへ戻ります。"
+LOCAL3="これは完全に USB メモリスティックの内容を削除します。実行したら、この操作は元に戻せません。\n\nOK のクリックで続けます。"
+LOCAL4="USB メモリスティックをフォーマットしています。\n\nお待ち下さい..."
+LOCAL5="USB メモリスティックのフォーマットが完了しました。\n\nOK のクリックで終了します。"
+LOCAL6="USB メモリスティックが見つかりません。\n\nUSB メモリスティックを挿して、もう一度試してください。"
+LOCAL7="USB メモリスティックを選択"
 LOCAL8="終了"
-LOCAL9="USB キーの初期化"
-LOCAL10="USBディスクラベル"
+LOCAL9="USB メモリスティックのフォーマット"
+LOCAL10="USB ディスクラベル"
 LOCAL11="完了するまでお待ちください..."
 ### .desktop file to be translated too
-# Name[ja_JP]=USB フォーマット
-# Comment[ja_JP]=USB ディスクのフォーマット
+# Name[ja_JP]=USB フォーマットツール
+# Comment[ja_JP]=USB ディスク（メモリスティック）のフォーマット
