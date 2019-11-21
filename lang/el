@@ -1,0 +1,18 @@
+# Greek localization file for Sparky USB Formatter tool.
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
+# Under the GNU GPL v2
+# Last update 2019/11/06 by jidan
+LOCAL1="Εφαρμογή φορμάτ δίσκου USB"
+LOCAL2="Θα πρέπει να επιλέξετε ένα στικάκι USB. Επιλέξτε OK για επιστροφή στο αρχικό μενού."
+LOCAL3="Όλα τα περιεχόμενα του δίσκου USB θα διαγραφούν οριστικά. Δεν υπάρχει η δυνατότητα αναστροφής της διαδικασίας εφόσον ξεκινήσει.\n\nΕπιλέξτε OK για συνέχεια."
+LOCAL4="Πραγματοποιείται φορμάτ στο στικάκι USB. \n\nΠαρακαλώ περιμένετε..."
+LOCAL5="Το φορμάτ του USB στικ ολοκληρώθηκε. \n\nΕπιλέξτε OK για τερματισμό."
+LOCAL6="Δεν εντοπίστηκαν δίσκοι USB.\n\nΕισάγετε ένα στικάκι USB και δοκιμάστε ξανά."
+LOCAL7="Επιλογή δίσκου USB"
+LOCAL8="Τερματισμός"
+LOCAL9="Φορμάτ του USB στικ"
+LOCAL10="Ετικέτα του δίσκου USB"
+LOCAL11="Περιμένετε μέχρι να ολοκληρωθεί..."
+### .desktop file to be translated to
+# Name[el_GR]=USB Formatter
+# Comment[el_GR]=Φορμάτ δίσκου USB
