@@ -1,0 +1,19 @@
+# Spanish (es_ES) localization file for Sparky USB Formatter tool.
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
+# Under the GNU GPL v2
+# Last update 2019/02/21 by pavroo
+# Translated by depaz
+LOCAL1="Formateador de discos USB"
+LOCAL2="Debe escoger una memoria USB a usar. Pulse OK para volver al menú principal."
+LOCAL3="Se borrarán todos los contenidos de su unidad USB. No podrá revertir esta operación una vez haya iniciado.\n\nPulse OK para continuar."
+LOCAL4="Formateando memoria USB. \n\nEspere, por favor..."
+LOCAL5="Formateo de memoria USB completado. \n\nPulse Ok para salir."
+LOCAL6="No se encontraron memorias USB.\n\nPor favor, introduzca una memoria USB e inténtelo de nuevo."
+LOCAL7="Elija una memoria USB"
+LOCAL8="Salir"
+LOCAL9="Formatear memoria USB"
+LOCAL10="Etiqueta del disco USB"
+LOCAL11="Por favor, espere hasta que finalice..."
+### .desktop file to be translated to
+# Name[es_ES]=Formateador de discos USB
+# Comment[es_ES]=Formatea discos USB
