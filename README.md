@@ -1,7 +1,7 @@
 Sparky USB Formatter
 This tool will format an USB flash disk.
 
-Copyright (C) 2015-2022 Paweł Pijanowski and others, see copyright file.
+Copyright (C) 2015-2023 Paweł Pijanowski and others, see copyright file.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -25,6 +25,7 @@ grep
 mount
 sparky-remsu
 yad
+zenity
 
 Install:
 -------------

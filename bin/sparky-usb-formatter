@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Format USB Key Tool 
-# Copyright 2015-2022 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
+# Copyright 2015-2023 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
 # Under the GNU GPL v2
-# Last update 2022/08/08 by pavroo
+# Last update 2023/01/12 by pavroo
 #
 # It is based on the Copy to USB Tool
 # Copyright 2009,2011 Tony Brijeski under the GPL V2
@@ -49,7 +49,8 @@ TITLE="--always-print-result --dialog-sep --window-icon=usb-creator --image=usb-
 TITLETEXT="$LOCAL1"
 TEXT="--text="
 OKBUTTON="--button=Ok:0 "
-
+DIALOGZEN="zenity --progress --pulsate --auto-close --auto-kill --no-cancel --window-icon=usb-creator --width=450 --height=120"
+TITLEZEN="--title="
 testroot="`whoami`"
 
 if [ "$testroot" != "root" ]; then
@@ -72,11 +73,12 @@ fi
 umount `mount | grep $1 | awk '{print $1}'`
 
 # format now
-$DIALOG $TITLE"$TITLETEXT" $TEXT"$LOCAL4" --no-buttons --progress --pulsate --auto-close --auto-kill --progress-text="$LOCAL11" &
+#$DIALOG $TITLE"$TITLETEXT" $TEXT"$LOCAL4" --no-buttons --progress --pulsate --auto-close --auto-kill --progress-text="$LOCAL11" &
+#mkfs.vfat -F 32 -I -n $2 -v /dev/$1
 
-mkfs.vfat -F 32 -I -n $2 -v /dev/$1
+(mkfs.vfat -F 32 -I -n $2 -v /dev/$1) | $DIALOGZEN $TITLEZEN"$TITLETEXT" $TEXT"\n$LOCAL4\n"
 sleep 1
-killall -KILL yad
+#killall -KILL yad
 
 $DIALOG $TITLE"$TITLETEXT" $TEXT"\n$LOCAL5" $OKBUTTON
 
