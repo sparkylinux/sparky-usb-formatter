@@ -70,9 +70,14 @@ if [ $? != 0 ]; then
 	mainmenu
 fi
 
-UMDEVS=`mount | grep $1 | awk '{print $1}'`
 #umount `mount | grep $1 | awk '{print $1}'`
-umount "$UMDEVS"
+UMDEVS3=`mount | grep $1 | awk '{print $1}' | tail -n1 | grep 3`
+if [ "$UMDEVS3" != "" ]; then
+	umount "$UMDEVS3"
+	sleep 1
+fi
+UMDEVS1=`mount | grep $1 | awk '{print $1}'`
+umount "$UMDEVS1"
 
 # format now
 #$DIALOG $TITLE"$TITLETEXT" $TEXT"$LOCAL4" --no-buttons --progress --pulsate --auto-close --auto-kill --progress-text="$LOCAL11" &
