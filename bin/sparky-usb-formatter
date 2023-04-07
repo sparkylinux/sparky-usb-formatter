@@ -3,7 +3,7 @@
 # Format USB Key Tool 
 # Copyright 2015-2023 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
 # Under the GNU GPL v2
-# Last update 2023/01/26 by pavroo
+# Last update 2023/04/07 by pavroo
 #
 # It is based on the Copy to USB Tool
 # Copyright 2009,2011 Tony Brijeski under the GPL V2
@@ -73,12 +73,14 @@ if [ $? != 0 ]; then
 fi
 
 #umount `mount | grep $1 | awk '{print $1}'`
-UMDEVS3=`mount | grep $1 | awk '{print $1}' | tail -n1 | grep 3`
+#UMDEVS3=`mount | grep $1 | awk '{print $1}' | tail -n1 | grep 3`
+UMDEVS3=`mount | grep $1 | grep 3 | awk '{print $1}'`
 if [ "$UMDEVS3" != "" ]; then
 	umount "$UMDEVS3"
 	sleep 1
 fi
-UMDEVS1=`mount | grep $1 | awk '{print $1}'`
+#UMDEVS1=`mount | grep $1 | awk '{print $1}'`
+UMDEVS1=`mount | grep $1 | grep 1 | awk '{print $1}'`
 umount "$UMDEVS1"
 
 # format now
