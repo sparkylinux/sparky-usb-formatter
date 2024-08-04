@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Format USB Key Tool 
-# Copyright 2015-2023 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
+# Copyright 2015-2024 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/20
 # Under the GNU GPL v2
-# Last update 2023/10/24 by pavroo
+# Last update 2024/08/04 by pavroo
 #
 # It is based on the Copy to USB Tool
 # Copyright 2009,2011 Tony Brijeski under the GPL V2
@@ -20,6 +20,8 @@ elif [ "`cat /etc/default/locale | grep LANG= | grep es`" != "" ]; then
 	else
 . $DEFLOCDIR/es_ES
 	fi
+elif [ "`cat /etc/default/locale | grep LANG= | grep fi`" != "" ]; then
+. $DEFLOCDIR/fi
 elif [ "`cat /etc/default/locale | grep LANG= | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
 elif [ "`cat /etc/default/locale | grep LANG= | grep hu`" != "" ]; then

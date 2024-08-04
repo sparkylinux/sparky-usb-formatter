@@ -1,0 +1,18 @@
+# Suomenkielinen lokalisointitiedosto Sparky USB Formatter -työkalulle.
+# Tekijänoikeus 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 20.10.2015
+# GNU GPL v2:n alla
+# Viimeisin päivitys 2019/02/21 pavroo
+LOCAL1="USB-levyn alustaja"
+LOCAL2="Sinun on valittava käytettävä USB-avain. Napsauta OK palataksesi päävalikkoon."
+LOCAL3="Tämä poistaa USB-asemasi sisällön kokonaan. Et voi peruuttaa tätä toimintoa sen alkaessa.\n\nJatka napsauttamalla OK."
+LOCAL4="Alustataan USB-avainta nyt. \n\nOdota..."
+LOCAL5="USB-avaimen muotoilu valmis. \n\nLopeta napsauttamalla OK."
+LOCAL6="USB-avaimia ei löydy.\n\nAseta USB-avain ja yritä uudelleen."
+LOCAL7="Valitse USB-avain"
+LOCAL8="Lopeta"
+LOCAL9="Alusta USB-avain"
+LOCAL10="USB-levyn nimi"
+LOCAL11="Odota, kunnes valmis..."
+### .desktop-tiedosto, johon käännetään
+# Name[fi]=USB-muotoilija
+# Comment[fi]=Alusta USB-levy
