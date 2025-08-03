@@ -2,7 +2,7 @@
 Version=1.0
 Encoding=UTF-8
 Name=USB Disk Formatter
-Name[de]=USB Formatter Tool
+Name[de]=USB Formatter
 Name[es_AR]=Formateador USB
 Name[es_ES]=Formateador de discos USB
 Name[fi]=USB-muotoilija
@@ -17,7 +17,7 @@ Name[ru]=USB Formatter
 Name[sv]=USB-formaterare
 Name[uk]=USB Форматувальник
 Comment=Format USB disk
-Comment[de]=Formatiert USB-Speicher
+Comment[de]=USB-Datenträger formatieren
 Comment[el]=Φορμάτ δίσκου USB
 Comment[es_AR]=Formatea un disco USB
 Comment[es_ES]=Formatea discos USB

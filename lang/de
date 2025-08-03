@@ -1,19 +1,19 @@
 # German localization file for Sparky USB Formatter tool.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/25
 # Under the GNU GPL v2
-# Translated to German by Pete B. 2015/10/29
+# Translated to German by Pete B. 2015/10/29 (aktualisiert 18.06.2025)
 # Last update 2019/02/21 by pavroo
-LOCAL1="USB Formatter Tool"
-LOCAL2="Es muss ein USB-Speicher ausgewählt werden. Klick auf OK um wieder ins Hauptmenü zu gelangen."
-LOCAL3="Diese Aktion wird alle in dem Speicher befindlichen Daten löschen!. Dieser Vorgang kann nicht rückgängig gemacht werden!.\n\nKlicke auf OK um fortzufahren"
-LOCAL4="Formatiere jetzt das USB-Speicher. \n\nBitte warten..."
-LOCAL5="Formatierung abgeschlossen. \n\nZum Beenden auf OK klicken"
-LOCAL6="Es wurde kein USB-Speicher gefunden.\n\nBitte ein USB-Speicher anschließen und erneut versuchen."
-LOCAL7="Wähle ein USB-Speicher"
+LOCAL1="USB Disk Formatter"
+LOCAL2="Sie müssen einen USB-Speicher auswählen, den Sie verwenden möchten. Klicken Sie auf OK, um zum Hauptmenü zurückzukehren."
+LOCAL3="Dadurch wird der Inhalt Ihres USB-Laufwerks vollständig gelöscht. Sie können diese Operation nicht rückgängig machen, sobald diese beginnt.\n\nKlicken Sie zum Fortfahren auf OK."
+LOCAL4="Der USB-Speicher wird jetzt formatiert. \n\nBitte warten Sie ..."
+LOCAL5="Formatierung des USB-Speichers abgeschlossen. \n\nKlicken Sie zum Beenden auf OK."
+LOCAL6="Keine USB-Speicher gefunden.\n\nBitte stecken Sie einen USB-Speicher ein und versuchen Sie es erneut."
+LOCAL7="USB-Speicher wählen"
 LOCAL8="Beenden"
-LOCAL9="Formatiere USB-Speicher"
-LOCAL10="USB-Disk-Label"
-LOCAL11="Bitte warten Sie, bis der Vorgang abgeschlossen ist..."
+LOCAL9="USB-Speicher formatieren"
+LOCAL10="Label für USB-Datenträger"
+LOCAL11="Bitte warten Sie bis zur Fertigstellung ..."
 ### .desktop file to be translated too
-# Name[de_DE]=USB Formatter Tool
-# Comment[de_DE]=Formatiert USB-Speicher
+# Name[de_DE]=USB Formatter
+# Comment[de_DE]=USB-Datenträger formatieren
